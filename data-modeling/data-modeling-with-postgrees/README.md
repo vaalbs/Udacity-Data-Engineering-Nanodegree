@@ -1,4 +1,4 @@
-# Project: Data Modeling with PostgreeSQL
+# Project: Data Modeling with PostgreSQL
 
 This project is the first project of the Data Engineer Nanodegree in Udacity.
 
@@ -153,7 +153,7 @@ Here there are some examples of querying this data model
 
 ### Local Execution
 
-For local execution you can use PostgreeSQL docker:
+For local execution you can use PostgreSQL docker:
 
 - Download docker image:
 
