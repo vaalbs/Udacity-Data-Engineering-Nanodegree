@@ -1,4 +1,4 @@
-# Project data modeling with PostgreeSQL
+# Project: Data Modeling with PostgreeSQL
 
 This project is the first project of the Data Engineer Nanodegree in Udacity.
 
