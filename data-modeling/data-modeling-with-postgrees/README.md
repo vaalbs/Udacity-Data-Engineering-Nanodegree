@@ -110,6 +110,8 @@ The query to insert data on this table is:
 
 `INSERT INTO time (start_time, hour, day, week, month, year, weekday) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (start_time) DO NOTHING`
 
+![Image of Yaktocat](https://github.com/vaalbs/Udacity-Data-Engineering-Nanodegree/tree/main/data-modeling/data-modeling-with-postgrees/data-model-schema.png)
+
 ### Files in Python
 
 #### ETL Pipeline
