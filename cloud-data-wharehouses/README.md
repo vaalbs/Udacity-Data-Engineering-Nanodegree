@@ -12,7 +12,7 @@ In this project, I applied what I've learned on data warehouses and AWS to build
 
 ### How to run
 
-1. To run this project you will need to fill the following information, and save it as *dwh.cfg* in the project root folder.
+1. To run this project you will need to fill the following information, and save it as _dwh.cfg_ in the project root folder.
 
 ```
 [CLUSTER]
@@ -37,46 +37,48 @@ SECRET=
 
 2. Run the following command to install the dependencies ( for macos )
 
-    `$brew install awscli`
-    `$pip install boto3 botocore pandas psycopg2 psycopg2-binary`
+   `$brew install awscli`
+   `$pip install boto3 botocore pandas psycopg2 psycopg2-binary`
 
-3. Follow along *create_cluster* notebook to set up the needed infrastructure for this project.
+3. Follow along _create_cluster_ notebook to set up the needed infrastructure for this project.
 
-4. Run the *create_tables* script to set up the database staging and analytical tables
+4. Run the _create_tables_ script to set up the database staging and analytical tables
 
-    `$ python create_tables.py`
+   `$ python create_tables.py`
 
-5. Finally, run the *etl* script to extract data from the files in S3, stage it in redshift, and finally store it in the dimensional tables.
+5. Finally, run the _etl_ script to extract data from the files in S3, stage it in redshift, and finally store it in the dimensional tables.
 
-    `$ python create_tables.py`
-
+   `$ python create_tables.py`
 
 ### Data Warehouse Schema Definition
 
 #### Staging Tables
+
 - staging_events
 - staging_songs
 
 #### Fact Table
-- songplays - records in event data associated with song plays i.e. records with page NextSong - 
-*songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent*
+
+- songplays - records in event data associated with song plays i.e. records with page NextSong -
+  _songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent_
 
 #### Dimension Tables
-- users - users in the app - 
-*user_id, first_name, last_name, gender, level*
-- songs - songs in music database - 
-*song_id, title, artist_id, year, duration*
-- artists - artists in music database - 
-*artist_id, name, location, lattitude, longitude*
-- time - timestamps of records in songplays broken down into specific units - 
-*start_time, hour, day, week, month, year, weekday*
+
+- users - users in the app -
+  _user_id, first_name, last_name, gender, level_
+- songs - songs in music database -
+  _song_id, title, artist_id, year, duration_
+- artists - artists in music database -
+  _artist_id, name, location, lattitude, longitude_
+- time - timestamps of records in songplays broken down into specific units -
+  _start_time, hour, day, week, month, year, weekday_
 
 ### Project structure
 
 The structure is:
 
-* <b> create_tables.py </b> - This script will drop old tables (if exist) ad re-create new tables
-* <b> etl.py </b> - This script orchestrate ETL.
-* <b> sql_queries.py </b> - This is the ETL. All the transformatios in SQL are done here.
-* <b> /img </b> - Directory with images that are used in this markdown document
-* <b> dhw.cfg - Credentials of AWS resources
+- <b> create_tables.py </b> - This script will drop old tables (if exist) ad re-create new tables.
+- <b> etl.py </b> - This script orchestrate ETL.
+- <b> sql_queries.py </b> - This is the ETL. All the transformatios in SQL are done here.
+- <b> /img </b> - Directory with images that are used in this markdown document.
+- <b> dhw.cfg - File with AWS credentials.
