@@ -81,4 +81,4 @@ The structure is:
 - <b> etl.py </b> - This script orchestrate ETL.
 - <b> sql_queries.py </b> - This is the ETL. All the transformatios in SQL are done here.
 - <b> /img </b> - Directory with images that are used in this markdown document.
-- <b> dhw.cfg - File with AWS credentials.
+- <b> dhw.cfg </b> - File with AWS credentials.
