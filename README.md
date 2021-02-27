@@ -10,13 +10,13 @@ Link: [Data Modeling with Postgres](https://github.com/vaalbs/Udacity-Data-Engin
 
 In this project, I would be applying Data Modeling with Apache Cassandra and complete an ETL pipeline using Python. I am provided with part of the ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
 
-Link : [Data Modeling with Apache Cassandra](https://github.com/vaalbs/Udacity-Data-Engineering-Nanodegree/tree/main/data-modeling/data-modeling-with-cassandra)
+Link: [Data Modeling with Apache Cassandra](https://github.com/vaalbs/Udacity-Data-Engineering-Nanodegree/tree/main/data-modeling/data-modeling-with-cassandra)
 
 ## Project 3: Data Warehouse
 
 In this project, I applied what I've learned on data warehouses and AWS to build an ETL pipeline for a database hosted on Redshift. To complete the project, I loaded data from S3 to staging tables on Redshift and execute SQL statements that create the analytics tables from these staging tables.
 
-Link - [Data Warehouse](https://github.com/vaalbs/Udacity-Data-Engineering-Nanodegree/tree/main/cloud-data-warehouses)
+Link: [Data Warehouse](https://github.com/vaalbs/Udacity-Data-Engineering-Nanodegree/tree/main/cloud-data-warehouses)
 
 ## Project 4: Data Lake
 
