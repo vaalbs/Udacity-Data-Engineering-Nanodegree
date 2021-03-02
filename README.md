@@ -1,4 +1,6 @@
-# Data Engineering Projects
+# Data Engineering
+
+Projects and resources developed in the [Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027) from Udacity.
 
 ## Project 1: [Data Modeling with Postgres](https://github.com/vaalbs/Udacity-Data-Engineering-Nanodegree/tree/main/data-modeling/data-modeling-with-postgrees)
 
